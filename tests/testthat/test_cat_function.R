@@ -1,7 +1,7 @@
 context("test_cat_function")
 
 test_that("cat_function works properly with boolean inputs", {
-  expect_output(cat_function(TRUE),"I love cats!")
+  expect_output(cat_function(FALSE),"I love cats!")
   expect_output(cat_function(FALSE),"I am not a cool person.")
 })
 
